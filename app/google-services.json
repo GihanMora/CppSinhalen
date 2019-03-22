@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "117832734188",
+    "firebase_url": "https://cppsinhalen.firebaseio.com",
+    "project_id": "cppsinhalen",
+    "storage_bucket": "cppsinhalen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117832734188:android:b48badb105303ecb",
+        "android_client_info": {
+          "package_name": "com.blogspot.gihanmora.cppsinhalen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117832734188-ljcvi82qhdihbt1e186hke52a2ojf18a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.gihanmora.cppsinhalen",
+            "certificate_hash": "3175f6f4584bf253e367d82c8e5d828e8351374a"
+          }
+        },
+        {
+          "client_id": "117832734188-7ep2kb7jt4siffjtc4eqodcrfm38dbme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBuiNyUIG202G19WY7CVDFvKLaGxgco3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117832734188-7ep2kb7jt4siffjtc4eqodcrfm38dbme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

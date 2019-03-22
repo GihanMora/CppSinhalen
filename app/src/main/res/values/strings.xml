@@ -1,0 +1,403 @@
+<resources>
+    <string name="app_name"> C++ සිංහලෙන්</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="intro">\n
+        C++ කියන පරිගණක ක්‍රමලේඛන භාෂාව middle-level programming language එකක් ලෙස හඳුන්වන්න පු ළුවන්..මෙය මුල් වරට සොයාගත්තේ Bjarne Stroustrup විසින් 1979 වසරේදී.
+    </string>
+    <string name="intro1">\n
+C++ කියන පරිගණක ක්‍රමලේඛන භාෂාව C භාෂාව මත පදනම්ව ලියා ඇති අතර වර්තමානයෙදී භාවිතා වන බොහෝ පරිගණක මෙහෙයුම් පද්ධති,පරිගණක ක්‍රීඩා හා මෘදුකාංග ලිවීමට මෙය භාවිතා කිරීම මෙහි ප්‍රබලතාව මනාව පැහැදිළි කරනවා..\n
+    </string>
+
+    <string name="body">
+        \n
+        <b>Object Oriented පසුබිම</b>
+\n\nC++ පරිගණක ක්‍රමලේඛන භාෂාව Object Oriented
+       programming සඳහා සහය දක්වන සහය දක්වන භාෂාවක් වීම
+        ද එය බොහෝ ජනප්‍රිය වීමට හේතුවක් වී තිබෙනවා.
+object oriented පරිගණක ක්‍රමලේඛන භාෂාව ක ප්‍රධාන අංග හතරකි.\n
+\n1. Abstraction \n2. Encapsulation \n3. Polymorphism \n4. Inheritance
+\n\nමෙම අංග 4 මත පදනම්ව බාහිර ලෝකයේ අපට හමුවන
+     නොයෙකුත් දේ Virtual Objects ලෙස සලකා programming කිරීමයි මෙහිදී සිදුවන්නේ.
+       එය විශාල පරිගණක ක්‍රීඩා වැනි දේ නිර්මාණය කිරීමේදී මනා පිටුවහලක් වනවා....</string>
+    <string name="body1">
+\n\nපළමුවෙන්ම කියන්න ඕනි C++ මගින් කේතනය සඳහා text editor(IDE) එකක් අවශ්‍ය  වෙනවා.
+\n ex: Dev C++/ Microsoft Visual C++
+\n[මගේ පුද්ගලික මතයනම් Dev C++ වැනි IDE එකක් පවිච්චි කිරීම වඩාත්
+       සුදුසුයි කියන එක. එක හේතුවක් තමයි එය ඉතාමත් සරල සහ වේගවත් වීම.
+      ඒ වගේම නොමිලයේම බාගත කරගන්නත් පුලුවන්.
+\n\nපහත link එක හරහා එය sourceforge.net වෙබ් අඩවියෙන් එය බාගත කරගත හැකියි.
+\n https://sourceforge.net/projects/orwelldevcpp/ ]
+
+\n\n
+
+   <b>Compiler</b>
+\n\nCompiler එකක් මඟින් සරලවම සිදුවන්නේ පරිගණක භාෂාවකින්
+       ලියන ලද code එකක් පරිගණකයට වැටහෙන ද්වීමය සංඛ්යාවන්
+       බවට පරිවර්ථනය කිරීම...
+C++ source code  එකක් compile කර ගැනීම සදහා C++ Compiler
+       එකක් අවශ්ය වන අතර මෙහිදී source code එක executable
+      program එකක් බවට පරිවර්තනය කරනු ලබනවා.
+        C++ source codes .cpp යන extension එකෙන් අවසන් වෙනවා ..</string>
+    <string name="body2">
+\nඔබට මෙම පාඩම් මාලාවේ එන ක්රියාකාරකම් සිදු කිරීමට Dev C++ වැනි
+       පරිගණක වැඩසටහනක් භාවිතා කළ හැකි නම් එය වඩාත් පහසු වේ. මන්ද
+       යත් ඒ තුළම compiler සහ Debugger වැනි පහසුකම් ද අන්තර්ගත වන බැවිනි.
+
+    </string>
+    <string name="body3">
+       \n\n<b>මෙම පාඩම් මාලාවේ මූලික අරමුණ   C++ පරිගණක ක්‍රමලේඛන භාෂාවේ
+       මූලික කරුණු පිළිබඳව ඔබගේ දැනුම වැඩි දියුණු කිරීමයි.</b>
+
+
+    </string>
+    <string name="basic1">
+    කලින් සඳහන් කලා වගේම C++ කියන්නෙ Object Oriented සිද්ධාන්ත
+    මත පදනම් වුනු භාෂාවක්..ඒ නිසාම C++ වලින් ලියපු Programme එකක්
+    Objects ගනනාවක එකතුවක් විදිහට හඳුන්වන්න පුලුවන්..
+    \nමේ Objects එකිනෙක අතර Communicate කිරීම සිද්ධ වෙන්නෙ
+    Methods මගින්..
+        \n\nC++ ඉගෙනීමේදී පහත වචන වල තේරුම් දැන සිටීම වැදගත් වෙනවා..
+    </string>
+    <string name="basic2">
+        <b>\nObject</b> - Object එකක් කියන්නෙ C++ කේතය ක අඩංගු ඕනෑ ම Component/entity එකකට.
+
+
+\nObject එකකට  attributes සහ behaviours තියනවා.
+
+
+\nAttributes වලින් object එකේ ලක්ෂණත් behaviours වලින් object එකේ හැසිරීම් රටාවත් නිරූපණය වෙනවා.
+
+
+\n\nඋදාහරණයක් විදිහට dog කියන object එක සැලකුවොත් attributes වෙන්නේ colour name breed ආදිය යි.එතකොට behaviours වෙන්නේ running barking eating වගේ දේවල් .
+    </string>
+    <string name="basic3">
+        <b>\nClass</b> - සරලවම කිව්වොත් Class එකක් කියන්නෙ object එකක් හදන අච්චුවක්.සැබෑ ලෝකයේ දී විවිධ වස්තු නිර්මාණය කිරීමට විවිධාකාරයේ අච්චු භාවිතා කරනවා වගේ OOP ගෘහ දී විවිධ objects සෑදීමට විවිධාකාරයේ classes භාවිතා කරනවා.
+        <b>\n\nMethods</b> - ඕනෑම object එකක හැසිරීම(behaviour) නිරූපණය කරන්නේ methods මගින්.ඒ වගේම objects එකිනෙක සම්බන්ධ වන්නේත් methods මගිනි.
+
+        <b>\n\nC++ කේතයක ව්‍යුහය</b>
+
+\n\nපහතින් දැක්වෙන්නේ hello world යන්න නිරූපණය කිරීමට සැකසූ සරල C++ කේතයක්.\n
+
+    </string>
+    <string name="basic4">
+         \nමේ කෝඩ් එකේ උඩින්ම තියන <b>#include iostream </b> යන්න C++ භාෂාවෙහි header එකක් ලෙස හඳුන්වනවා.එමගින් මෙම programme එකට අවශ්‍ය දත්ත ලබා දීම සිදුකරනවා.
+
+\n\nඊළඟට තිබෙන <b>using namespabbce std</b> මගින් සිදු වන්නේ  programme 1හි භාවිතා වන භාවිතා වන identifiers වල Scope එක හඳුන්වා දීමයි.
+
+        \n\nමෙම වැඩසටහනෙහි වැදගත්ම අංගය වන්නේ <b>int main()</b> ලෙස ආරම්භ වන main method එකයි.
+        \nඑමඟින් මෙම වැඩසටහන execute වීම අරඹනවා. මෙහි එන <b>int</b> ලෙස දැක්වෙන්නේ මෙම method එක මගින් output කරන data type එකයි.
+
+\n\nMain method එක තුළ ඇති <b>cout  </b>විධානය මගින් සිදු කරනු ලබන්නේ බාහිරයට output එකක් ලබා දීමයි.
+
+\n\nReturn 0 මගින් main method එක අවසන් වෙනවා.
+
+        \n\n<b>වැදගත් : සියලු lines  ; එකක් මගින් අවසන් වෙයි.</b>
+
+\nතව ද මෙහි // මගින් ආරම්භ වන lines comments ලෙස හඳුන්වනවා.
+
+\n\nමෙම වැඩසටහන පළමුව compile කර පසුව run කිරීමෙන් පහත ප්‍රතිඵලය ලබාගත හැකියි.\n
+    </string>
+
+    <string name="var111">
+         \n\nසාමාන්‍යයෙන් පරිගණක ක්‍රමලේඛන භාෂාවක variables භාවිතා කරන්නේ දත්ත ගබඩා කර තබා ගැනීමටයි.
+        \nමෙම දත්ත විවිධ data types වලට අයත් වන අතර,
+        ඒවා ගබඩා කර ගැනීම සඳහා භාවිතා කරන variablesද ඒ ඒ data types වලට අයත් විය යුතු වනවා...
+
+\n\nඋදාහරණ:
+
+\nname-String
+
+\nAge-integer
+
+
+\n\n<b>Variable එකක් declare කිරීම.</b>
+
+\n\nමෙහිදී සිදුවන්නේ අපට අවශ්‍ය දත්තයකට නමක් ලබා දීම යි.
+        \nමෙහිදී එම දත්ත පරිගණකයේ RAM එක තුල ස්ථාපනය වන අතර භාවිතා කර කළ නම මගින් එම දත්ත පහසුවෙන් නැවත පරිහරණය කිරීමට හැකි වෙනවා.
+
+\n\nC++ ක්‍රමලේඛන භාෂාවේ ඇති අනිත් අනෙක් වැදගත් කරුණ නම් සියලුම variable define කිරීමේදී එය අයත් අයත් වන data type එක ඉදිරියෙන් සටහන් කළ යුතු වීමයි.
+
+\n\nඋදාහරණ : String name;
+
+
+\n\nප්‍රධාන වශයෙන් මෙම data types කොටස් දෙකකි.
+
+        \n<b>1.Primitives/Built-in</b>
+
+        \n<b>2.User Defined</b>
+
+
+\n\nPrimitives
+\nC++ භාෂාවේ එන Primitives  පහත දැක්වේ. මේවා භාෂාව තුළම අන්තර්ගත දත්ත වර්ග වේ.
+    </string>
+    <string name="var2">
+    <b> \n\nUser defined</b>
+
+\nමෙහිදී සිදුවන් දී සිදුවන්නේ අප විසින් දත්ත වර්ග හඳුන්වා දීමයි.
+\nමේ සඳහා Typedef syntax එක භාවිතා කරනු ලබනවා.
+
+\n\nඋදාහරණ typedef int meter;
+
+<b>\n\nVariable Scope</b>
+
+\nVariables  භාවිතා කළ හැකි පරාසය අනුව වර්ග දෙකකි.
+
+\n\n1.Global Variables
+\nGlobal variable එකක් යනුවෙන් අදහස් වන්නේ එම variable එක කේතය ඕනෑ ම තැනක දී භාවිතා කළ හැකි variable  එකක්  යන්නයි.global variable එකක් defineඩිසයින් කිරීම සියලුම functions වලට පිටතින් සිදුවිය යුතුයි.
+
+\n\n2.Local Variables
+\nමෙහිදී සිදුවන්නේ variable එකක් function එකක් තුල තුළදී define කිරීම යි.එවිට එය භාවිතා කළ හැක්කේ function එක එකේ පරාසය තුළ පමණි.function එකට පිටතින් එය භාවිතා කිරීමට යාමේදී error එකක් පැමිණේ.
+
+    </string>
+    <string name="var3">
+        \n\n මෙහිදී රූපයේ දැක්වෙන පරිදී 11 වන පෙළියේ <b> “[Error] \'secondvar\' was not declared in this scope”</b> ලෙස error එකක් පැමිණේ.
+        \nඑයට හේතුවනම් secondvar යන variable එක lines 6-10 අතර ඇති සඟල වරහන් යුගලයෙන් ආවරණය වන කේත කොටසට local variable එකක් වීමයි..
+        \nඑය එම scope එක තුළ භාවිතා කළ හැකි මුත් ඉන් පිටතදී භාවිතා කළ නොහැක..
+        \nමෙහි firstvar යනු global variable එකකි.
+        \nඑය කිසිඳු ගැටළුවකින් තොරව ඕනෑම තැනක භාවිතා කළ හැකිය..
+
+
+
+\n\nVariables සමග වැඩ කිරීමේදි scope එක ගැන අනිවාර්යයෙන්ම සැලකිලිමත් විය යුතු අතර Variables define කිරිමේදි ඒවා භාවිතා කළ හැකි
+        පරාසය සීමා කිරීමට scoping මගින් හැකියාව ලැබෙනවා.
+
+        <b>\n\nEnumerated variables</b>
+
+\nමෙය විශේෂ data type එකක්. මෙමගින් සිදුවන්නේ කිසියම් variable එකකට ගත හැකි අගයන් සීමා කිරීමයි.\n මෙය validation වල දී ඉතාමත් වැදගත් ක් වනවා .
+
+\n\nඋදාහරණ:
+\nenum fruit {apple,banana,mango } myfruit;
+\nmyfruit = apple;
+
+\n\nOOP පරිගණක වැඩසටහන් වලදී ප්‍රධාන අවශ්‍යයෙන්ම variables වන්නේ එම objects වල පවතින attributes වේ.
+
+        <b>\nVariable නම් කිරීම.</b>
+
+\n\nVariable එකක් නම් කිරීමේ දී සැලකිලිමත් විය යුතු කරුණු කිහිපයක් තියෙනවා
+
+\n\n1.variable name එකක් අනිවාර්යෙන්ම ආරම්භ විය යුත්තේ ඉංග්‍රීසි අකුරකින් හෝ underscore( _ ) එකකිනි.
+\n2.uppercase හා lower case අකුරු එකිනෙකින් වෙනස් වෙයි.
+\n3. C++ keywords variable names ලෙස භාවිතා කළ නොහැක.
+
+\n\nKeywords ලෙස හඳුන්වන්නේ C++ සඳහා වෙන් කර ඇති  වචන වේ.
+
+    </string>
+    <string name="op1">
+        \nVariables සමග වැඩ කිරිමේදී operators වැදගත් වේ. \nසාමාන්‍යයෙන් ඕනෑම පරිගණක ක්‍රමලේඛන භාෂාව ක ක operators අන්තර්ගත වේ.
+        \nඒවා arithmetic logical හා comparative වශයෙන් වර්ග කළ හැක.
+        \nපහත වගුවේ c++ යෙදෙන ප්‍රධාන operators දක්වා ඇත.
+    </string>
+    <string name="op2">\nArithmetic Operators</string>
+    <string name="op3">Relational Operators</string>
+    <string name="op4">Logical Operators</string>
+    <string name="op5">Bitwise Operators</string>
+    <string name="op6">Assignment Operators</string>
+    <string name="op7">\n\nsource:
+https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm</string>
+
+    <string name="con1">\n
+        <b>Flow control statements</b>
+
+\nපරිගණක වැඩසටහනක් අපට අවශ්‍ය පරිදි පාලනය කර ගැනීම සඳහා flow control statements භාවිතා කරයි.
+    </string>
+    <string name="con111">
+\nමේවා conditional statements සහ looping statements ලෙස වර්ග කළ හැක.
+
+        <b>\n\nConditional statements</b>
+
+        <b>\n\nIf statement</b>
+
+\n\nමෙහිදී සිදුවන්නේ කිසියම් condition එකක් එක සත්‍ය වන විට පමණක් කිසියම් කේත කොටසක් ක්‍රියාත්මක වීමයි.
+        \nඑබැව බැවින් condition එක සත්‍ය නොවන විටදී මෙම කේත කොටස execute නො වේ.</string>
+
+    <string name="con2">
+
+         \nමෙහිදී salary එක 10,000 වන නිසා if condition එක සත්‍ය වන අතර if body එක තුළ ඇති කේතය execute වීම සිදුවේ.
+
+\n\nOutput එක ලෙස “Salary is greater than 5000” යන්න ලැබේ.
+
+        \n\n<b>If else statement</b>
+
+\n\nමෙහිදී සිදුවන්නේ if ලෙස දී ඇති condition එක සත්‍ය වන විට විටදී ඊට අදාල කේත කොටස පමණක් ක්‍රියාත්මක වීම සහ condition එක සත්‍ය වන විට දී els ලෙඒත් ලෙස සඳහන් කළ ඇති කොටසේ පවතින කේත කොටස ක්‍රියාත්මක වීමයි.
+        \nමෙහිදී if හෝ else වලට අයත් කේත කොටසක් අනිවාර්යයෙන්ම ක්‍රියාත්මක වීම සිදුවේ.
+    </string>
+    <string name="con3">
+         \nමෙහිදී salary එක 2,000 වන නිසා if condition එක අසත්‍ය වන අතර if body තුළට යාමක් සිදු නොවේ.
+
+\nඑබැවින් else body එක තුළට පිවිසෙන අතර එය තුළ ඇති කේතය execute වීම සිදුවේ.
+
+\n\nOutput එක ලෙස “Salary is less than 5000” යන්න ලැබේ.
+
+
+\n\n<b>Else if statement </b>
+\n\nමෙහිදී conditions කීපයක් යටතේ අපට පරිගණක වැඩසටහන පාලනය කළ හැක.
+        \nමෙහිදී if ලෙස පළමුවෙන් condition එකක් ලබාදෙන අතර එය සත්‍ය නොවුවොත් පමණක් else if ලෙස දී ඇති
+        condition එක සලකනු ලබයි.
+        \nඑය ද අසත්‍ය නම් ඊට පහළින් ඇති else if condition එක සලකනු ලැබේ.
+        \nමෙලෙස else if condition ඕනෑම ගණනක් ලබා දිය හැක.
+        \nකිසිදු if හෝ  else if condition එකක් එක සත්‍ය නොවේ නම් පමණක් else යන කේත කොටස execute වේ.
+
+    </string>
+    <string name="con4">
+         \nමෙහිදී salary එක 5,000 වන නිසා if condition එක අසත්‍ය වන අතර if body තුළට යාමක් සිදු නොවේ.
+
+\n\nතවද else if condition එක සළකා බැලූ විට එයද අසත්‍ය වේ.
+        \nඑමනිසා else if body එක තුළටද නොයයි.
+\nඑබැවින් අවසානයේ ඇති else body එක තුළට පිවිසෙන අතර එය තුළ ඇති කේතය execute වීම සිදුවේ.
+\n\nOutput එක ලෙස “Salary is equal to 5000” යන්න ලැබේ.
+    </string>
+
+    <string name="l1">
+         \nRepetition  නැත හොත් නැවත නැවත සිදු කිරීම යනු පරිගණක ක්‍රමලේඛන භාෂාවල ඉතා සුලභ භාවිතයකි.
+
+        \n\nමේ සඳහා looping statements භාවිතා කරනු ලැබේ.</string>
+    <string name="ll1">
+
+\n\nඋදාහරණයක් ලෙස ඔබට එකෙ සිට සිය දක්වා සංඛ්‍යාවෙන් print කිරීමට සිදු වූවා යැයි සිතන්න.
+        \nඑවිට පහත පරිදි කේතයක් භාවිතා කිරීම ඉතාමත් අසීරු වනවා සේ ම සම්පූර්ණ කේත යෙහි දිග අනවශ්‍ය ලෙස වැඩිවේ.
+        \nඑවිට කෙතෙහි ක්‍රියාශීලී භාවය අඩු වෙයි.
+    </string>
+    <string name="l2">
+
+\nඑබැවින් එවැනි අවස්ථාවල අපට පහසුවෙන් looping statement එකක් භාවිතා කිරීම මගින් මෙම කාර්යය ඉටු කර ගත හැක.
+\nC++ සහය දක්වන looping statements වර්ග තුනක් පවතී.
+
+        \n\n<b>While loop</b>
+\n\nමෙහිදී සි දී සිදුවන්නේ කිසියම් condition එක සත්‍ය වන තෙක් එකම කේත කොටස නැවත නැවත ක්‍රියාත්මක වීම යි.
+\n\nWhile loop එකක syntax එක පහත පරිදි වේ.
+    </string>
+    <string name="l3">
+උදාහරණ
+
+    </string>
+    <string name="l4">
+        \n\n<b>Do  while loop</b>
+
+\n\nමෙය while loop එකට එකට බොහෝ සෙයින් සමාන වුවත් එක් වෙනසක් පවතී.
+        \nඑනම් while හී දී ඇති condition එක සත්‍ය වුවත් අසත්‍ය වුවත් දූ කොටසෙහි ඇති කේතය අනිවාර්යයෙන්ම පළමු වතාවේ දී
+        ක්‍රියාත්මක වීමයි.
+        \nඊට පසුව while හී condition එක සත්‍ය වන තෙක් do හී කේත කොටස ක්‍රියාත්මක වීම සිදු වේ.
+
+\n\nDo-while loop එකක syntax එක පහත පරිදි වේ.
+    </string>
+    <string name="l5">
+        \n\n<b>For loop</b>
+\n\nමෙහි දී ද සිදුවන්නේ යම් තත්ත්වයක් සපිරෙන තෙක් for loop හී
+        body එකේ තිබෙන කේත කොටස නැවත නැවත ක්‍රියාත්මක වීමයි.
+
+\n\nFor loop එකක syntax එක පහත පරිදි වේ.
+    </string>
+    <string name="l6">
+        \n\n<b> Break and continue statements</b>
+
+\n\nLoop සමග වැඩ කිරිමේදී බහුලව භාවිතාවන keywords දෙකක් තමයි break and continue කියන්නේ..
+
+\nBreak statement එක  මඟින් සිදුවන්නේ loop එක අවසාන කිරීමයි.
+        \nLoop body එක තුළ ඕනෑම තැනක break statement එක භාවිතා කළ හැකියි..
+        \nඑවිට loop එකෙන් පසුව ඇති කොටසට වැඩසටහන ගමන් කිරීම සිදුවෙනවා...
+    </string>
+    <string name="l7">
+         \nමෙහිදී a හි අගය 10ට සමාන වූ විට loop එක execute වීම අවසාන වේ.
+        \nඑබැවින් 1 සිට 10 දක්වා සංඛ්‍යා පමණක් දිස්වේ.
+
+
+\n\nContinue statement භාවිතා කරනු ලබන්නේ යම් loop එකක ඇති iteration(loop circle) එකක් හෝ කීපයක් මඟ හැර යාමටයි..
+    </string>
+    <string name="l8"> \nමෙහිදී -5 සිට +5 දක්වා සංඛ්‍යා මඟින් 10 බෙදීමයි for loop එකෙදී සිදුවන්නේ..
+        \nනමුත් a හි අගය 0 වන විට එය මඟින් 10 බෙදූවිට zero division error එකක් පැමිණේ…(අනන්තය අර්ථ නොදැක්වෙන නිසා.)
+        \nඑමනිසා a හි අගය 0 ට සමාන වන iteration එක මඟ හැරයාමට continue statement එක භාවිතා කර ඇත.</string>
+    <string name="f1">
+         \nFunction එකක් යනු සරලව ම කිසියම් ක්‍රියාවක් සිදු කිරීම සඳහා සඳහා
+        ලියන ලද කේත කොටසකි.
+        \nඔබ දැනටමත් දන්නා main( ) function/method එක යනු C++ කේතයක ඇති වැදගත්ම function එක වේ.
+    </string>
+    <string name="f111">
+\n\nඕනෑම පරිගණක ක්‍රමලේඛන භාෂාවක functions  අන්තර්ගත වේ.
+        \nProgramme එකක functions භාවිතා කිරීමෙන් ප්‍රතිඵල රාශියක් හිමි වේ.
+
+·         \nමූලික වශයෙන් ම function එකක් මගින් එකම කේත කොටස නැවත නැවත අනවශ්‍ය ලෙස repeat වීම වලකයි.
+
+·         \nකේතයක ගුණාත්මකභාවය සහ කියවීමේ හැකියාව(readability) ද functions මගින් වැඩි දියුණු වෙයි.
+
+·         \nකේතයක යම් යම් කොටස් වෙනස් කිරීමේදී functions භාවිත කර තිබේ නම් එය වෙනස් කළ යුත්තේ එක් තැනක දී පමණි.
+
+        \n\n<b>Function එකක ව්‍යුහය ( Syntax )</b>
+    </string>
+    <string name="f2">
+         \n\n<b>Return type</b> - මින් අදහස් වන්නේ function එක මගින් output කරනු ලබන ප්‍රතිඵලය අයත් වන data type එකයි. උදාහරණ int, string, void etc. Void යන්න භාවිතා කරන්නේ යම්කිසි function එකක් මගින් කිසිදු කිසිඳු ප්‍රතිඵලයක් output නොකරන විට ය. Function එකක් define කිරීමේදී අනිවාර්යයෙන්ම මෙය සඳහන් කළ යුතු ය.
+
+        \n\n<b>Function name</b> - මෙයා function එකට ලබා ලබා දෙනු ලබන නාමයයි. function එක නැවත නැවත භාවිතා කිරීමේදී මෙම නම මගින් එය call කිරීම සිදු කරණු ලැබේ. මෙයද function එකක අනිවාර්යයෙන් තිබිය යුතුය.
+
+        \n\n<b>Parameters</b> – function එකට ලබා දෙන input data වේ. function එකක් define කිරීමේදී අවශ්‍ය parameters
+
+දත්ත වර්ගය සහ අදාල නම ඉදිරිපත් කළ යුතු වෙයි.එමෙන්ම function එක call කිරීමේදී ද මෙම parameters අනු පිලිවෙලින් ලබා දිය යුතුය.නමුත් function එකකට parameters ලබා දීම අනිවාර්ය නොවේ.
+
+        \n\n<b>Body </b>- function එකට අදාල අදාල සියලු තර්කයන් සහ statements මේ තුළ අඩංගු විය යුතුයි. Parameters body එක තුලදී භාවිතා කරන අතර return statement එක මගින් function එක අවසාන වන අතර ප්‍රතිඵලය output කරනු ලැබේ. Body එක තුල වෙනත් function calls, loops, conditional statements තිබිය හැකිය.
+
+\n\nFunction එකක් call කිරීම main function එක තුල හෝ වෙනත් ඕනෑම function එකක් තුළ සිදුකළ හැකිය.
+    </string>
+    <string name="f3">
+        \nමෙහි දක්වා ඇත්තේ සංඛ්‍යා දෙකක් ලබාදුන් විට එහි මධ්‍යන්‍ය ලබාගැනීමට සැකසූ සරල function එකකි.
+        \n\nඑහි නම mean_of වන අතර return type එක float වේ.
+        \nමෙම function එකට input parameters දෙකක් ලබාදිය යුතුය.
+        \nඑවාගේ data type එක float වන අතර නම් පිළිවෙලින් x හා y වේ.
+        \nFunction body එක තුලදී පළමුවෙන් සංඛ්‍යා දෙකෙහි එකතුව sum නම් variable එකකට assign කරගන්නා
+        අතර පසුව එය දෙකෙන් බෙදීමෙන් මධ්‍යන්‍ය ලබාගනී.
+        \n\nfunction එක call කර ඇත්තේ main method එක තුළය.
+        \n87 හා 98 යන සංඛ්‍යාවල මධ්‍යන්‍ය ලබාගැනීමට මෙම function එක භාවිතා කර ඇති අතර ලැබෙන පිළිතුර
+        mean_marks යන variable එකට සමාන කොට print කර ඇත.
+    </string>
+    <string name="a1">
+         \nඇතැම් විට පරිගණක වැඩසටහන් වලදී දත්ත සමූහයක් සමග සමඟ වැඩ කිරීමට සිදු වේ.
+        \nඋදාහරණයක් ලෙස පසුගිය මාස 10 තුළ ඩොලරයේ අගය සළකන්න.
+        \nමෙහිදී එක් එක් මාසය ඩොලරයේ අගය සඳහා සඳහා වෙන වෙනම variables භාවිතා කිරීම ඉතා අපහසු කටයුත්තකි.
+        \nමෙවැනි දත්ත සමූහයක් සමඟ වැඩ කරන අවස්ථාවල දී අපට arrays ප්‍රයෝජනවත් වේ.
+        \nArrays යනු පරිගණක ක්‍රමලේඛන භාෂාවල භාවිතා වන data structure එකකට උදාහරණයකි.
+
+\n\nArray එකක පවතින අගයන් elements ලෙස හැඳින්වේ.
+        \nසෑම element එකකටම array එක තුල තුළ නිශ්චිත ස්ථානයක් හිමිවන අතර එය index එක ලෙස හැඳින්වේ.
+        \nIndex එක මගින් ඕනෑම element එකක් අනෙකුත් elements වලින් පහසුවෙන් වෙන්කර ගත හැක.
+
+        \n\n<b>Array එකක ව්‍යූහය</b>
+    </string>
+    <string name="a2">
+
+\nමෙහි data type ලෙස දක්වා ඇත්තේ array එක තුළ ඇති දත්ත වල data type එකයි.
+        \nඑ බැවින් array එකක් සතු සියලුම දත්ත එකම data type එකකට අයත් විය යුතුය.
+        \nඉන් පසුව දැක්වෙන්නේ Array එකෙහි නමයි.
+        \nArray එක භාවිතා කිරිමේදී මෙම නම යොදා ගැනේ.
+        \nLength එක ලෙස සඳහන් වෙන්නේ array එකෙහි තබා ගත හැකි උපරිම දත්ත සංඛ්‍යාවයි.
+        \nමෙහිදී compiler එක විසින් මෙම array එක සදහා අවශ්‍ය ඉඩ ප්‍රමාණය RAM එකෙන් වෙන් කිරීම සිදු කරයි.
+
+\n\nArray එකෙහි දත්ත සඟල වරහන් යුගලයක් තුළ ලියනු ලබන අතර ‘ , ’ මගෙන් වෙන් කරනු ලැබේ.
+        \n\n<b>Index of an Array</b>
+    </string>
+    <string name="a3">
+         \nකලින් සඳහන් කළා සේ ම array එකක ඇති elements වෙන්කර හඳුනා ගැනීමට index එක ඉවහල් වේ.
+        \nC++ arrays වල index එක 0න් ආරම්භ වේ.
+        \nඑනම් පළමු element එකේ index එක වන්නේ 0යි.
+        \nදෙවන element එකේ index වන්නේ 1 වේ.
+
+\n\nතව ද array එකක Length එක අවසාන element එකේ index එකට එකක් එකතු කිරීමෙන් ලබා ගත හැක.
+
+
+\n\n<b>Array එකකින් දත්ත ලබා ගැනීම.</b>
+
+\nArray එකක ඇති දත්තයන් එහි index එක මගින් පහත පරිදි ලබා ගත හැක
+    </string>
+    <string name="a4">
+        \n\n<b>Array එකකට දත්ත ඇතුලත් කිරීම.</b>
+\nArray එකක ඕනෑම index එකකට පහත පරිදි අගයක් ඇතුළත් කිරීම සිදු කළ හැක.
+    </string>
+    <string name="a5">
+         \nමෙහිදී array එකෙහි තුන්වන element එක banana සිට mango ලෙස වෙනස් කර ඇත..
+\n\nArray සමග වැඩ කිරිමේදී කිරීමේදී බහුලව for loop භාවිතා වේ.
+        \nමෙම උදාහරණයේදී for loop එක මඟින් index යන variable එක සෑම iteration එකකදීම එකකින් වැඩිවීම සිදුවේ.
+        \nඑවිට 0 සිට 2 දක්වා එක් එක් index එකට අදාළ වූ elements ලබාගෙන ඇත.
+
+
+    </string>
+</resources>

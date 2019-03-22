@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.blogspot.gihanmora.cppsinhalen.MainActivity">
+    <item
+        android:id="@+id/tab0"
+        android:actionLayout="@id/tab0"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab1"
+        android:actionLayout="@id/tab0"
+        android:orderInCategory="100"
+        android:title="What's next!"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab2"
+        android:actionLayout="@id/tab2"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab3"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/tab22"
+        android:actionLayout="@id/tab22"
+        android:orderInCategory="100"
+        android:title="c++ second stage"
+        app:showAsAction="never" />
+-->
+</menu>
